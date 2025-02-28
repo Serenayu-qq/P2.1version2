@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyword Image Finder Example</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <p>
+      please input a sentence about your mood to get the perfect flower! (e.g.
+      happy,sad)
+    </p>
+    <!--fied for users to write sentence-->
+    <textarea id="userInput" name="w3review" rows="4" cols="50"></textarea>
+    <!--submit button-->
+    <input
+      onclick="fetchImageBasedOnUserInput()"
+      type="submit"
+      value="Submit"
+    />
+    <div><img id="result" src="" /></div>
+  </body>
+</html>
