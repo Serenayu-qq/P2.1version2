@@ -1,7 +1,26 @@
   /* Basic styles for layout */
   body{
+    background-color: black;
+    color:white;
+    font-family: 'Dongle', sans-serif;
     text-align:center; 
+
+
   }
+
+
+
+  #userInput{
+    background-color: red;
+  }
+
+  #submitButton{
+    background-color: blueviolet;
+  }
+
+
+
+
   
   img{
     width: 300px; 
