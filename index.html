@@ -8,17 +8,47 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+
+    <h2>
+        Choose any of the words below to make a sentence, and you'll get a picture that matches the sentence you made! 
+    </h2>
+
     <p>
-      please input a sentence about your mood to get the perfect flower! (e.g.
-      happy,sad)
+    intrigue/
+    focus/
+    sweetness/
+    reminiscence /
+    flirtiness/
+    intensity/
+    chill/
+    admiration/
+    awe/
+    drama/
+    warmth/
+    serenity/
+    respect/
+    melancholy/
+    togetherness/
+    elegance/
+    overflow/
+    dedication/
+    revelry/
+    energy/
+    tradition/
+    mystery/
+    cozy/
+    majesty/
+    uncertainty/
+    stillness
     </p>
+
     <!--fied for users to write sentence-->
     <textarea id="userInput" name="w3review" rows="4" cols="50"></textarea>
+
     <!--submit button-->
-    <input
-      onclick="fetchImageBasedOnUserInput()"
-      type="submit"
-      value="Submit"
+    <input onclick="fetchImageBasedOnUserInput()" 
+    id="submitButton"
+    type="submit" value="Submit"
     />
 
 
@@ -41,6 +71,8 @@
       <option value="sepia">Sepia</option>
     </select>
 
-    <div><img id="result" src="" /></div>
+    <div class="imgcontainer"> <img id="result" src="" /> </div>
+
+
   </body>
 </html>

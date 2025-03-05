@@ -103,7 +103,7 @@ var images = {
     
     image.style.width = size + "px";
     image.style.height = "auto";
-    document.body.style.backgroundColor = "red";
+
   }
   
   // Function to apply image filter
